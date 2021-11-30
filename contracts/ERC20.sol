@@ -51,7 +51,7 @@ contract ERC20 is IERC20{
         decimals=18;
         owner=msg.sender;
         token_owner=msg.sender;
-        _totalSupply=50000*10**decimals;
+        _totalSupply=5000*10**decimals;
         _balances[token_owner]= _totalSupply;
         _cap = 55*10**decimals;
         
